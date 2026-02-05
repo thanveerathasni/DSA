@@ -93,3 +93,48 @@
 
 
 
+// merge sort 
+
+let arr = [2,4,1,5,3]
+function merge(arr){
+  
+  if(arr.length<=1 ) return arr
+  
+  let mid = Math.floor(arr.length/2)
+  let left = merge(arr.slice(0,mid))
+  let right = merge(arr.slice(mid))
+  
+  return sort(left, right)
+  
+}
+
+
+
+
+function sort(left, right) {
+  
+  let i = 0 ; j = 0 , result = []
+
+  while(i<left.length && j< right.length){
+    
+    if(left[i]<right[j]){
+      result.push(left[i])
+      i++
+      
+    }
+    else{
+      
+      result.push(right[j])
+      j++
+    }
+    
+  }
+  
+  return [...result, ...left.slice(i),...right.slice(j)]
+  
+}
+
+console.log(merge(arr))
+
+
+
