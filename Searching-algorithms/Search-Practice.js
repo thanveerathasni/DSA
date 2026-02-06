@@ -12,3 +12,17 @@
 // }
 
 
+
+// function binary(arr,target,low =0,high = arr.length-1){
+  
+//   if(low>high) return -1
+  
+//   let mid = Math.floor((low+high)/2)
+// if(target==arr[mid]) return mid
+// else if (target>mid) return binary(arr,target,mid+1,high)
+// else return binary(arr,target,low,mid-1)
+  
+//   return -1 
+  
+// }
+
