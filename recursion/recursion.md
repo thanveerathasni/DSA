@@ -35,3 +35,14 @@ Recursion repeats by function calls.
 ## 9. When not to use?
 - Simple counting
 - Performance critical code
+
+
+
+
+
+
+Mental difference
+
+Loop → you manage memory (res)
+
+Recursion → call stack manages memory
