@@ -33,11 +33,38 @@
 
 
 
-function sum(n){
-if(n<=1) return 1
+// function sum(n){
+// if(n<=1) return 1
 
-return n+=sum(n-1)
+// return n+=sum(n-1)
 
-}
-console.log(sum(9))
+// }
+// console.log(sum(9))
+
+
+
+
+
+// let str ="hello"
+// let res = ""
+// for(let i = str.length-1 ;i>=0;i--){
+//   res +=str[i]
+// }
+
+// console.log(res)
+
+
+
+
+// let str ="hello"
+// let res =""
+
+// function rev(str){
+  
+//   if(str.length <=1) return str
+  
+//   return rev(str.slice(1))+str[0]
+  
+// }
+// console.log(rev(str))
 
