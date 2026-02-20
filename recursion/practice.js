@@ -68,3 +68,49 @@
 // }
 // console.log(rev(str))
 
+
+
+
+
+
+
+
+
+
+
+
+// function  fact(n , a=1,b=2){
+  
+//   if(n==0|| n===1) return n
+//     console.log(a)
+//   let res = fact(n - 1, b, a + b)
+
+//   return res
+// }
+
+// console.log(fact(9))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
